@@ -6,6 +6,11 @@
 # Sys.setlocale("LC_TIME", "en_EN.utf8") did not work on Rstudio on my mac.
 # I do not consider solving this issue to be an exclusive extra work for those from other countries.
 
+# setwd("~/Daten/Coursera/04ExploratoryAnalysis/Course Project 1/ExData_Plotting1") # My working directory
+
+# Skip this section if you have already downloaded the data by running the plot1.R script
+
+
 temp <- tempfile()
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 download.file(fileUrl, temp, mode="wb")
